@@ -1,0 +1,11 @@
+[Unit]
+Description=Add Energy Record to EnergyDB.
+After=multi-user.target
+
+[Service]
+User=pi
+Type=idle
+ExecStart=/usr/bin/python /home/pi/EnergyDB/addMessageToEnergyDB.py 
+
+[Install]
+WantedBy=multi-user.target

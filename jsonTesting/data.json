@@ -1,0 +1,7 @@
+{"logMessage":
+              {"message": "Boot."}
+            ,
+ "energyReading": [{"power":1270,"pf":0.77},
+                   {"power":1270,"pf":0.77}
+                 ]
+ }

@@ -1,0 +1,95 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+#*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+# my files            #
+#######################
+#Don’t include these files
+Private/*
+Python/__pycache__/*
+Tools/mqtt-spy.log
+Tools/mqtt-spy.messages
+list.txt
+new_list.txt
+Arduino/TwoSPItest/*
+ClientPrototype/*
+JupyterNotebooks/*
+LearningPlotly/*
+#EnergyDB/EnergyReading.db
+#EnergyDB/EnergyReadingModel.py
+#EnergyDB/addPowerReadingToEnergyDB.py
+EnergyDB/Query Energy DB.ipynb
+EnergyDB/__pycache__/*
+EnergyDB/.ipynb_checkpoints/*
+EnergyDB/Add Readings to Energy DB.ipynb
+EnergyDB/EnergyReadingModel.pyc
+testStuff/*
+din_power_atm90e26/*
+#Python/GetEnergyReadings.py
+#Python/HappyDay_energyic_spi.py
+#Python/umqtt_simple.py
+Python/ArdspiTest.logicdata
+Python/ArdspiTestMeterStatusMISO.png
+Python/ArdspiTestMeterStatusMOSI.png
+Python/HappyDay_energyic_spi._hmmmm.py
+Python/HappyDay_Readings.csv
+Python/MacMqttTest.py
+Python/mqttTest.py
+Python/PyspiTest.py
+Python/PyspiTestMeterStatus.png
+Python/PyspiTestwithMqtt.py
+Python/spi_device.mpy
+Python/test.py
+#Python/umqtt_simple.py
+din_power_atm90e26/*
+#Python/GetEnergyReadings.py
+#Python/HappyDay_energyic_spi.py
+#Python/umqtt_simple.py
+Python/ArdspiTest.logicdata
+Python/ArdspiTestMeterStatusMISO.png
+Python/ArdspiTestMeterStatusMOSI.png
+Python/HappyDay_energyic_spi._hmmmm.py
+Python/HappyDay_Readings.csv
+Python/MacMqttTest.py
+Python/mqttTest.py
+Python/PyspiTest.py
+Python/PyspiTestMeterStatus.png
+Python/PyspiTestwithMqtt.py
+Python/spi_device.mpy
+Python/test.py
+Python/WholeHousePowerReading.py
+Python/WriteEnergyReadingsToCSVFile.pyPython/WholeHousePowerReading.py
+Python/WriteEnergyReadingsToCSVFile.py
