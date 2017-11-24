@@ -128,18 +128,6 @@ F 3 "" H 1400 1900 50  0001 C CNN
 	1    1400 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 800  2650 800 
-Wire Wire Line
-	2950 800  3100 800 
-Wire Wire Line
-	3400 800  3550 800 
-Wire Wire Line
-	3850 800  3950 800 
-Wire Wire Line
-	4500 800  4500 900 
-Wire Wire Line
-	4850 800  4850 950 
 $Comp
 L Varistor RV?
 U 1 1 5A11BE8A
@@ -155,12 +143,6 @@ Text GLabel 1900 1050 2    60   Output ~ 0
 L0
 Text GLabel 1900 1150 2    60   Output ~ 0
 L1
-Wire Wire Line
-	4500 1200 4500 1300
-Wire Wire Line
-	4500 1300 4850 1300
-Wire Wire Line
-	4850 1300 4850 1250
 Text GLabel 2500 1600 0    60   Input ~ 0
 L1
 $Comp
@@ -230,22 +212,6 @@ F 4 "C" H 4850 1900 60  0001 C CNN "PN"
 	1    4850 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 1600 2650 1600
-Wire Wire Line
-	2950 1600 3100 1600
-Wire Wire Line
-	3400 1600 3550 1600
-Wire Wire Line
-	3850 1600 3950 1600
-Wire Wire Line
-	4500 1600 4500 1700
-Wire Wire Line
-	4850 1600 4850 1750
-Wire Wire Line
-	4500 2100 4850 2100
-Wire Wire Line
-	4850 2100 4850 2050
 Text Notes 1250 650  0    60   ~ 0
 Energy In
 Text Notes 3350 650  0    60   ~ 0
@@ -274,8 +240,6 @@ F 3 "" H 1600 1350 50  0001 C CNN
 $EndComp
 Text GLabel 5700 950  0    60   Input ~ 0
 L0
-Wire Wire Line
-	5700 950  6100 950 
 $Comp
 L Polyfuse F?
 U 1 1 5A120D00
@@ -287,19 +251,15 @@ F 3 "" H 5900 1600 50  0001 C CNN
 	1    5900 1600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7300 1000 7900 1000
-Wire Wire Line
-	7300 1400 7900 1400
 $Comp
 L GNDPWR #PWR?
 U 1 1 5A1212CA
-P 7500 1450
-F 0 "#PWR?" H 7500 1250 50  0001 C CNN
-F 1 "GNDPWR" H 7500 1320 50  0000 C CNN
-F 2 "" H 7500 1400 50  0001 C CNN
-F 3 "" H 7500 1400 50  0001 C CNN
-	1    7500 1450
+P 7500 1800
+F 0 "#PWR?" H 7500 1600 50  0001 C CNN
+F 1 "GNDPWR" H 7500 1670 50  0000 C CNN
+F 2 "" H 7500 1750 50  0001 C CNN
+F 3 "" H 7500 1750 50  0001 C CNN
+	1    7500 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -324,20 +284,10 @@ F 3 "" H 9450 1350 50  0001 C CNN
 	1    9450 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9600 1400 9600 1150
-Wire Wire Line
-	9750 1150 9750 1400
-Wire Wire Line
-	9900 1150 9900 1400
 Text GLabel 9900 1400 3    60   Output ~ 0
 5V_UNREG_AC
-Wire Wire Line
-	9450 1150 9450 1400
 Text GLabel 9600 1400 3    60   Input ~ 0
 5V_UNREG
-Wire Notes Line
-	2250 2450 2250 500 
 $Comp
 L ST-PJ-312 J?
 U 1 1 5A123DF5
@@ -363,23 +313,10 @@ F 4 "R" H 2050 3400 60  0001 C CNN "PN"
 	1    2050 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1450 3050 1450 2900
-Wire Wire Line
-	2050 2900 2050 3250
-Wire Wire Line
-	2050 3550 2050 4000
-Wire Wire Line
-	2050 4000 1200 4000
-Wire Wire Line
-	1200 4000 1200 3700
 Text GLabel 2200 3750 2    60   Output ~ 0
 I1N_0
 Text GLabel 2200 3100 2    60   Output ~ 0
 I1P_0
-Wire Wire Line
-	2200 3100 2050 3100
-Connection ~ 2050 3100
 $Comp
 L ST-PJ-312 J?
 U 1 1 5A12DD69
@@ -403,27 +340,10 @@ F 4 "R" H 2050 4750 60  0001 C CNN "PN"
 	1    2050 4750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1450 4400 1450 4250
-Wire Wire Line
-	1450 4250 2050 4250
-Wire Wire Line
-	2050 4250 2050 4600
-Wire Wire Line
-	2050 5350 1200 5350
-Wire Wire Line
-	1200 5350 1200 5050
 Text GLabel 2200 5100 2    60   Output ~ 0
 I1N_1
 Text GLabel 2200 4450 2    60   Output ~ 0
 I1P_1
-Wire Wire Line
-	2200 4450 2050 4450
-Connection ~ 2050 4450
-Wire Notes Line
-	450  5650 3900 5650
-Wire Notes Line
-	3900 5650 3900 2450
 Text GLabel 1900 1250 2    60   Output ~ 0
 N
 Text GLabel 5000 800  2    60   Output ~ 0
@@ -446,14 +366,6 @@ Text GLabel 4700 5550 0    60   Input ~ 0
 I1P_1
 Text GLabel 4700 5750 0    60   Input ~ 0
 I1N_1
-Wire Wire Line
-	2050 4900 2050 5350
-Wire Wire Line
-	2200 5100 2050 5100
-Connection ~ 2050 5100
-Wire Wire Line
-	2200 3750 2050 3750
-Connection ~ 2050 3750
 $Comp
 L TEST_1P J?
 U 1 1 5A1334B9
@@ -491,12 +403,6 @@ F 3 "" H 4700 1350 50  0001 C CNN
 	1    4700 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4700 2150 4700 2100
-Connection ~ 4700 2100
-Wire Wire Line
-	4700 1350 4700 1300
-Connection ~ 4700 1300
 Text GLabel 1400 1800 0    60   Output ~ 0
 GNDA
 $Comp
@@ -510,17 +416,17 @@ F 3 "" H 9750 1400 50  0001 C CNN
 	1    9750 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 7900 950  2    60   Output ~ 0
+Text GLabel 8150 900  2    60   Output ~ 0
 5V_UNREG
 $Comp
 L +5V #PWR?
 U 1 1 5A14B98A
-P 7900 900
-F 0 "#PWR?" H 7900 750 50  0001 C CNN
-F 1 "+5V" H 7900 1040 50  0000 C CNN
-F 2 "" H 7900 900 50  0001 C CNN
-F 3 "" H 7900 900 50  0001 C CNN
-	1    7900 900 
+P 8150 900
+F 0 "#PWR?" H 8150 750 50  0001 C CNN
+F 1 "+5V" H 8150 1040 50  0000 C CNN
+F 2 "" H 8150 900 50  0001 C CNN
+F 3 "" H 8150 900 50  0001 C CNN
+	1    8150 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -569,10 +475,216 @@ F 4 "C" H 8250 2650 60  0001 C CNN "PN"
 	1    8250 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7900 2700 7900 2900
 Text GLabel 8350 2400 2    60   Output ~ 0
 3.3V_AVDD
+$Comp
+L Conn_01x04 J?
+U 1 1 5A1573C9
+P 750 1250
+F 0 "J?" H 750 1450 50  0000 C CNN
+F 1 "Conn_01x04" H 750 950 50  0000 C CNN
+F 2 "" H 750 1250 50  0001 C CNN
+F 3 "" H 750 1250 50  0001 C CNN
+	1    750  1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L VSK-S3-5U U?
+U 1 1 5A1763FC
+P 6700 1050
+F 0 "U?" H 6700 750 60  0000 C CNN
+F 1 "VSK-S3-5U" H 6750 1300 60  0000 C CNN
+F 2 "" H 6300 800 60  0001 C CNN
+F 3 "" H 6300 800 60  0001 C CNN
+	1    6700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 5A176B2F
+P 5850 1150
+F 0 "C?" H 5875 1250 50  0000 L CNN
+F 1 "4.7/400V" H 5875 1050 50  0000 L CNN
+F 2 "" H 5888 1000 50  0001 C CNN
+F 3 "" H 5850 1150 50  0001 C CNN
+	1    5850 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 5A1778E0
+P 7350 1200
+F 0 "C?" H 7375 1300 50  0000 L CNN
+F 1 "150" H 7375 1100 50  0000 L CNN
+F 2 "" H 7388 1050 50  0001 C CNN
+F 3 "" H 7350 1200 50  0001 C CNN
+	1    7350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A177AA2
+P 7600 1200
+F 0 "C?" H 7625 1300 50  0000 L CNN
+F 1 "0.1" H 7625 1100 50  0000 L CNN
+F 2 "" H 7638 1050 50  0001 C CNN
+F 3 "" H 7600 1200 50  0001 C CNN
+F 4 "C" H 7600 1200 60  0001 C CNN "PN"
+	1    7600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_TVS D?
+U 1 1 5A177E30
+P 7900 1200
+F 0 "D?" H 7900 1300 50  0000 C CNN
+F 1 "P4KE6.8A" H 7900 1100 50  0000 C CNN
+F 2 "" H 7900 1200 50  0001 C CNN
+F 3 "" H 7900 1200 50  0001 C CNN
+	1    7900 1200
+	0    1    1    0   
+$EndComp
+Text Notes 6000 650  0    60   ~ 0
+120VAC -> +5VDC Unregulated\n
+Text Notes 8950 650  0    60   ~ 0
+Isolate and Connect AC GND and DC GND\n
+Text GLabel 7450 2400 0    60   Input ~ 0
+5V_UNREG_AC
+Text Notes 8650 2250 0    60   ~ 0
+Regulate +3.3V AVDD for use by ATM90E26
+$Sheet
+S 4700 3300 3750 3050
+U 5A1041CA
+F0 "ATM90_Circuit" 60
+F1 "ATM90_Circuit.sch" 60
+F2 "I1P_0" I L 4700 5150 60 
+F3 "I1N_0" I L 4700 5350 60 
+F4 "L0_SAMP" I L 4700 4450 60 
+F5 "N" I L 4700 4950 60 
+F6 "I1P_1" I L 4700 5550 60 
+F7 "I1N_1" I L 4700 5750 60 
+F8 "L1_SAMP" I L 4700 4650 60 
+F9 "3.3V_AVDD" I L 4700 3950 60 
+F10 "GNDA" I L 4700 4150 60 
+$EndSheet
+Text Notes 6000 3750 0    60   ~ 0
+Measure and Send
+$Comp
+L R R?
+U 1 1 5A186D61
+P 8150 1200
+F 0 "R?" V 8230 1200 50  0000 C CNN
+F 1 "270" V 8150 1200 50  0000 C CNN
+F 2 "" V 8080 1200 50  0001 C CNN
+F 3 "" H 8150 1200 50  0001 C CNN
+	1    8150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5A186E2C
+P 8150 1600
+F 0 "D?" H 8150 1700 50  0000 C CNN
+F 1 "LED" H 8150 1500 50  0000 C CNN
+F 2 "" H 8150 1600 50  0001 C CNN
+F 3 "" H 8150 1600 50  0001 C CNN
+	1    8150 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 800  2650 800 
+Wire Wire Line
+	2950 800  3100 800 
+Wire Wire Line
+	3400 800  3550 800 
+Wire Wire Line
+	3850 800  3950 800 
+Wire Wire Line
+	4500 800  4500 900 
+Wire Wire Line
+	4850 800  4850 950 
+Wire Wire Line
+	4500 1200 4500 1300
+Wire Wire Line
+	4500 1300 4850 1300
+Wire Wire Line
+	4850 1300 4850 1250
+Wire Wire Line
+	2500 1600 2650 1600
+Wire Wire Line
+	2950 1600 3100 1600
+Wire Wire Line
+	3400 1600 3550 1600
+Wire Wire Line
+	3850 1600 3950 1600
+Wire Wire Line
+	4500 1600 4500 1700
+Wire Wire Line
+	4850 1600 4850 1750
+Wire Wire Line
+	4500 2100 4850 2100
+Wire Wire Line
+	4850 2100 4850 2050
+Wire Wire Line
+	5700 950  6100 950 
+Wire Wire Line
+	7300 1000 8150 1000
+Wire Wire Line
+	9600 1400 9600 1150
+Wire Wire Line
+	9750 1150 9750 1400
+Wire Wire Line
+	9900 1150 9900 1400
+Wire Wire Line
+	9450 1150 9450 1400
+Wire Notes Line
+	2250 2450 2250 500 
+Wire Wire Line
+	1450 3050 1450 2900
+Wire Wire Line
+	2050 2900 2050 3250
+Wire Wire Line
+	2050 3550 2050 4000
+Wire Wire Line
+	2050 4000 1200 4000
+Wire Wire Line
+	1200 4000 1200 3700
+Wire Wire Line
+	2200 3100 2050 3100
+Connection ~ 2050 3100
+Wire Wire Line
+	1450 4400 1450 4250
+Wire Wire Line
+	1450 4250 2050 4250
+Wire Wire Line
+	2050 4250 2050 4600
+Wire Wire Line
+	2050 5350 1200 5350
+Wire Wire Line
+	1200 5350 1200 5050
+Wire Wire Line
+	2200 4450 2050 4450
+Connection ~ 2050 4450
+Wire Notes Line
+	450  5650 3900 5650
+Wire Notes Line
+	3900 5650 3900 2450
+Wire Wire Line
+	2050 4900 2050 5350
+Wire Wire Line
+	2200 5100 2050 5100
+Connection ~ 2050 5100
+Wire Wire Line
+	2200 3750 2050 3750
+Connection ~ 2050 3750
+Wire Wire Line
+	4700 2150 4700 2100
+Connection ~ 4700 2100
+Wire Wire Line
+	4700 1350 4700 1300
+Connection ~ 4700 1300
+Wire Wire Line
+	7900 2700 7900 2900
 Wire Wire Line
 	8200 2400 8350 2400
 Wire Wire Line
@@ -588,17 +700,6 @@ Wire Wire Line
 Connection ~ 7900 2800
 Wire Notes Line
 	5500 450  5500 3150
-$Comp
-L Conn_01x04 J?
-U 1 1 5A1573C9
-P 750 1250
-F 0 "J?" H 750 1450 50  0000 C CNN
-F 1 "Conn_01x04" H 750 950 50  0000 C CNN
-F 2 "" H 750 1250 50  0001 C CNN
-F 3 "" H 750 1250 50  0001 C CNN
-	1    750  1250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	950  1050 1900 1050
 Wire Wire Line
@@ -637,28 +738,6 @@ Wire Wire Line
 Connection ~ 4500 1600
 Connection ~ 4850 1600
 Connection ~ 4950 1600
-$Comp
-L VSK-S3-5U U?
-U 1 1 5A1763FC
-P 6700 1050
-F 0 "U?" H 6700 750 60  0000 C CNN
-F 1 "VSK-S3-5U" H 6750 1300 60  0000 C CNN
-F 2 "" H 6300 800 60  0001 C CNN
-F 3 "" H 6300 800 60  0001 C CNN
-	1    6700 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP C?
-U 1 1 5A176B2F
-P 5850 1150
-F 0 "C?" H 5875 1250 50  0000 L CNN
-F 1 "4.7/400V" H 5875 1050 50  0000 L CNN
-F 2 "" H 5888 1000 50  0001 C CNN
-F 3 "" H 5850 1150 50  0001 C CNN
-	1    5850 1150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5750 1600 5650 1600
 Wire Wire Line
@@ -671,42 +750,6 @@ Wire Wire Line
 	6100 1000 6100 1100
 Wire Wire Line
 	5850 1300 6100 1300
-$Comp
-L CP C?
-U 1 1 5A1778E0
-P 7350 1200
-F 0 "C?" H 7375 1300 50  0000 L CNN
-F 1 "150" H 7375 1100 50  0000 L CNN
-F 2 "" H 7388 1050 50  0001 C CNN
-F 3 "" H 7350 1200 50  0001 C CNN
-	1    7350 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5A177AA2
-P 7600 1200
-F 0 "C?" H 7625 1300 50  0000 L CNN
-F 1 "0.1" H 7625 1100 50  0000 L CNN
-F 2 "" H 7638 1050 50  0001 C CNN
-F 3 "" H 7600 1200 50  0001 C CNN
-F 4 "C" H 7600 1200 60  0001 C CNN "PN"
-	1    7600 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L D_TVS D?
-U 1 1 5A177E30
-P 7900 1200
-F 0 "D?" H 7900 1300 50  0000 C CNN
-F 1 "P4KE6.8A" H 7900 1100 50  0000 C CNN
-F 2 "" H 7900 1200 50  0001 C CNN
-F 3 "" H 7900 1200 50  0001 C CNN
-	1    7900 1200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7900 900  7900 1050
 Wire Wire Line
 	7600 1050 7600 1000
 Connection ~ 7600 1000
@@ -714,23 +757,11 @@ Wire Wire Line
 	7350 1050 7350 1000
 Connection ~ 7350 1000
 Wire Wire Line
-	7900 1400 7900 1350
+	7900 1350 7900 1800
 Wire Wire Line
-	7600 1350 7600 1400
-Connection ~ 7600 1400
+	7600 1350 7600 1800
 Wire Wire Line
-	7350 1350 7350 1400
-Connection ~ 7350 1400
-Wire Wire Line
-	7500 1450 7500 1400
-Connection ~ 7500 1400
-Connection ~ 7900 1000
-Text Notes 6000 650  0    60   ~ 0
-120VAC -> +5VDC Unregulated\n
-Text Notes 8950 650  0    60   ~ 0
-Isolate and Connect AC GND and DC GND\n
-Text GLabel 7450 2400 0    60   Input ~ 0
-5V_UNREG_AC
+	7350 1350 7350 1800
 Wire Notes Line
 	11200 2100 5500 2100
 Wire Notes Line
@@ -743,21 +774,28 @@ Wire Wire Line
 	1450 2900 2050 2900
 Wire Notes Line
 	450  2450 5500 2450
-Text Notes 8950 2300 0    60   ~ 0
-Regulate +3.3V AVDD
-$Sheet
-S 4700 3300 3750 3050
-U 5A1041CA
-F0 "ATM90_Circuit" 60
-F1 "ATM90_Circuit.sch" 60
-F2 "I1P_0" I L 4700 5150 60 
-F3 "I1N_0" I L 4700 5350 60 
-F4 "L0_SAMP" I L 4700 4450 60 
-F5 "N" I L 4700 4950 60 
-F6 "I1P_1" I L 4700 5550 60 
-F7 "I1N_1" I L 4700 5750 60 
-F8 "L1_SAMP" I L 4700 4650 60 
-F9 "3.3V_AVDD" I L 4700 3950 60 
-F10 "GNDA" I L 4700 4150 60 
-$EndSheet
+Wire Wire Line
+	8150 1450 8150 1350
+Wire Wire Line
+	8150 900  8150 1050
+Connection ~ 8150 1000
+Wire Wire Line
+	7900 1050 7900 1000
+Connection ~ 7900 1000
+Wire Wire Line
+	8150 1800 8150 1750
+Wire Wire Line
+	7300 1800 8150 1800
+Wire Wire Line
+	7300 1800 7300 1400
+Connection ~ 7500 1800
+Connection ~ 7350 1800
+Connection ~ 7600 1800
+Connection ~ 7900 1800
+Text GLabel 4700 6000 0    60   Input ~ 0
+5V_UNREG
+Text GLabel 7300 1750 0    60   Output ~ 0
+GNDPWR
+Text GLabel 4700 6200 0    60   Input ~ 0
+GNDPWR
 $EndSCHEMATC
