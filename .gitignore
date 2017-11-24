@@ -38,6 +38,7 @@ Thumbs.db
 # my files            #
 #######################
 #Don’t include these files
+Tisham_Boards/*
 Private/*
 Python/__pycache__/*
 Tools/mqtt-spy.log
