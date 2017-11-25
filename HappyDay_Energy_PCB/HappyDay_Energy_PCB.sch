@@ -273,21 +273,10 @@ F 3 "" H 9300 1050 60  0001 C CNN
 	1    9300 1050
 	1    0    0    -1  
 $EndComp
-$Comp
-L GNDPWR #PWR?
-U 1 1 5A1214D2
-P 9450 1400
-F 0 "#PWR?" H 9450 1200 50  0001 C CNN
-F 1 "GNDPWR" H 9450 1270 50  0000 C CNN
-F 2 "" H 9450 1350 50  0001 C CNN
-F 3 "" H 9450 1350 50  0001 C CNN
-	1    9450 1400
-	1    0    0    -1  
-$EndComp
 Text GLabel 9900 1400 3    60   Output ~ 0
-5V_UNREG_AC
+5V_UNREG_A
 Text GLabel 9600 1400 3    60   Input ~ 0
-5V_UNREG
+5V_UNREG_D
 $Comp
 L ST-PJ-312 J?
 U 1 1 5A123DF5
@@ -381,43 +370,10 @@ Text GLabel 5650 1600 0    60   Input ~ 0
 N
 Text GLabel 4700 4150 0    60   Input ~ 0
 GNDA
-$Comp
-L GNDA #PWR?
-U 1 1 5A148A27
-P 4700 2150
-F 0 "#PWR?" H 4700 1900 50  0001 C CNN
-F 1 "GNDA" H 4700 2000 50  0000 C CNN
-F 2 "" H 4700 2150 50  0001 C CNN
-F 3 "" H 4700 2150 50  0001 C CNN
-	1    4700 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDA #PWR?
-U 1 1 5A148ACE
-P 4700 1350
-F 0 "#PWR?" H 4700 1100 50  0001 C CNN
-F 1 "GNDA" H 4700 1200 50  0000 C CNN
-F 2 "" H 4700 1350 50  0001 C CNN
-F 3 "" H 4700 1350 50  0001 C CNN
-	1    4700 1350
-	1    0    0    -1  
-$EndComp
 Text GLabel 1400 1800 0    60   Output ~ 0
 GNDA
-$Comp
-L GNDA #PWR?
-U 1 1 5A14B137
-P 9750 1400
-F 0 "#PWR?" H 9750 1150 50  0001 C CNN
-F 1 "GNDA" H 9750 1250 50  0000 C CNN
-F 2 "" H 9750 1400 50  0001 C CNN
-F 3 "" H 9750 1400 50  0001 C CNN
-	1    9750 1400
-	1    0    0    -1  
-$EndComp
 Text GLabel 8150 900  2    60   Output ~ 0
-5V_UNREG
+5V_UNREG_D
 $Comp
 L +5V #PWR?
 U 1 1 5A14B98A
@@ -438,17 +394,6 @@ F 1 "TLV1117-33" H 7900 2525 50  0000 L CNN
 F 2 "" H 7900 2400 50  0001 C CNN
 F 3 "" H 7900 2400 50  0001 C CNN
 	1    7900 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDA #PWR?
-U 1 1 5A14BB1F
-P 7900 2900
-F 0 "#PWR?" H 7900 2650 50  0001 C CNN
-F 1 "GNDA" H 7900 2750 50  0000 C CNN
-F 2 "" H 7900 2900 50  0001 C CNN
-F 3 "" H 7900 2900 50  0001 C CNN
-	1    7900 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -546,10 +491,10 @@ F 3 "" H 7900 1200 50  0001 C CNN
 $EndComp
 Text Notes 6000 650  0    60   ~ 0
 120VAC -> +5VDC Unregulated\n
-Text Notes 8950 650  0    60   ~ 0
-Isolate and Connect AC GND and DC GND\n
+Text Notes 8950 750  0    60   ~ 0
+Isolate Analog and DIgital Signal\n\n
 Text GLabel 7450 2400 0    60   Input ~ 0
-5V_UNREG_AC
+5V_UNREG_A
 Text Notes 8650 2250 0    60   ~ 0
 Regulate +3.3V AVDD for use by ATM90E26
 $Sheet
@@ -795,9 +740,19 @@ Connection ~ 7350 1800
 Connection ~ 7600 1800
 Connection ~ 7900 1800
 Text GLabel 4700 6000 0    60   Input ~ 0
-5V_UNREG
+5V_UNREG_D
 Text GLabel 7300 1750 0    60   Output ~ 0
-GNDPWR
+GNDD
 Text GLabel 4700 6200 0    60   Input ~ 0
-GNDPWR
+GNDD
+Text GLabel 9450 1400 0    60   Input ~ 0
+GNDD
+Text GLabel 9750 1400 3    60   Output ~ 0
+GNDA
+Text GLabel 7900 2900 0    60   Input ~ 0
+GNDA
+Text GLabel 4700 2150 0    60   Input ~ 0
+GNDA
+Text GLabel 4700 1350 0    60   Input ~ 0
+GNDA
 $EndSCHEMATC
