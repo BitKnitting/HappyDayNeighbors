@@ -1248,9 +1248,9 @@ Wire Wire Line
 Wire Wire Line
 	7450 2200 7000 2200
 Text HLabel 9150 5700 3    60   Input ~ 0
-GNDPWR
+GND_D
 Text HLabel 9250 4350 1    60   Input ~ 0
-5V_UNREG
+5V_UNREG_D
 $Comp
 L +3.3V #PWR?
 U 1 1 5A18B898
@@ -1280,7 +1280,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 1700 7400 1600
 Text HLabel 6950 1800 0    60   Input ~ 0
-GNDPWR
+GND_D
 Wire Wire Line
 	7450 1800 6950 1800
 $EndSCHEMATC
