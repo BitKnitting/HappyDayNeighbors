@@ -1,4 +1,4 @@
-update=Tuesday, November 21, 2017 'AMt' 11:19:38 AM
+update=Thursday, November 30, 2017 'PMt' 01:28:02 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=libs/ATM90E26_Featherwing
 LibName31=libs/atm90e26
 LibName32=libs/dc-dc
 LibName33=libs/si865
+LibName34=libs/MiscellaneousDevices

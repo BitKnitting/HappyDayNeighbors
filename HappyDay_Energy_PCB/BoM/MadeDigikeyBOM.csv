@@ -1,0 +1,4 @@
+Reference,Value,Quantity,Manf Part #,Digikey Part #,1,10,100,1000,Qty Avail,Link
+"R11,R12",1K,2,RC0805JR-071KL,311-1.0KARCT-ND,0.1,0.019,0.0076,0.00341,1959696,http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=311-1.0KARCT-ND
+"C1,C2",.033u,2,08055C333KAT2A,478-1389-1-ND,0.1,0.058,0.026,0.01461,3611212000,http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=478-1389-1-ND
+"RV1,RV2",Varistor,2,B72660M0251K072,495-7116-1-ND,1.05,0.929,0.7343,0.4496,3185,http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=495-7116-1-ND
