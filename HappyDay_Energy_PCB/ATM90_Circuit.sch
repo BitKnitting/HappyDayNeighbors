@@ -1292,15 +1292,15 @@ F 3 "" H 11350 3800 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 7050 2200 0    60   ~ 0
-SCK_MCU
+SCK
 Text Label 7050 2100 0    60   ~ 0
-MOSI_MCU
+MOSI
 Text Label 7050 2000 0    60   ~ 0
-CS0_MCU
+CS0
 Text Label 7050 1900 0    60   ~ 0
-CS1_MCU
+CS1
 Text Label 7050 2300 0    60   ~ 0
-MISO_MCU
+MISO
 Wire Wire Line
 	6700 2000 5950 2000
 $Comp
