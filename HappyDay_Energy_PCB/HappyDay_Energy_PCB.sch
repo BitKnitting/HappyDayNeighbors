@@ -261,10 +261,10 @@ L LED D2
 U 1 1 5A186E2C
 P 8100 1700
 F 0 "D2" H 8100 1800 50  0000 C CNN
-F 1 "LED" H 8100 1600 50  0000 C CNN
+F 1 "IND_LED" H 8100 1600 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8100 1700 50  0001 C CNN
 F 3 "" H 8100 1700 50  0001 C CNN
-F 4 "IND-LED" H 8100 1700 60  0001 C CNN "PN"
+F 4 "LED" H 8100 1700 60  0001 C CNN "PN"
 	1    8100 1700
 	0    -1   -1   0   
 $EndComp
@@ -695,6 +695,7 @@ F 0 "TP1" H 5050 3750 50  0000 C BNN
 F 1 "3.3V_A" H 5050 3700 50  0000 C CNN
 F 2 "Connectors_TestPoints:Test_Point_Pad_d2.0mm" H 5050 3450 50  0001 C CNN
 F 3 "" H 5050 3450 50  0001 C CNN
+F 4 "X" H 5050 3450 60  0001 C CNN "PN"
 	1    5050 3450
 	1    0    0    -1  
 $EndComp
@@ -709,6 +710,7 @@ F 0 "TP2" H 5050 4200 50  0000 C BNN
 F 1 "GNDA" H 5050 4150 50  0000 C CNN
 F 2 "Connectors_TestPoints:Test_Point_Pad_d2.0mm" H 5050 3900 50  0001 C CNN
 F 3 "" H 5050 3900 50  0001 C CNN
+F 4 "X" H 5050 3900 60  0001 C CNN "PN"
 	1    5050 3900
 	1    0    0    -1  
 $EndComp
@@ -723,6 +725,7 @@ F 0 "TP3" H 5050 4600 50  0000 C BNN
 F 1 "LO_SAMP" H 5050 4550 50  0000 C CNN
 F 2 "Connectors_TestPoints:Test_Point_Pad_d2.0mm" H 5050 4300 50  0001 C CNN
 F 3 "" H 5050 4300 50  0001 C CNN
+F 4 "X" H 5050 4300 60  0001 C CNN "PN"
 	1    5050 4300
 	1    0    0    -1  
 $EndComp
@@ -737,6 +740,7 @@ F 0 "TP4" H 5050 5000 50  0000 C BNN
 F 1 "L1_SAMP" H 5050 4950 50  0000 C CNN
 F 2 "Connectors_TestPoints:Test_Point_Pad_d2.0mm" H 5050 4700 50  0001 C CNN
 F 3 "" H 5050 4700 50  0001 C CNN
+F 4 "x" H 5050 4700 60  0001 C CNN "PN"
 	1    5050 4700
 	1    0    0    -1  
 $EndComp
@@ -751,6 +755,7 @@ F 0 "TP6" H 5050 5800 50  0000 C BNN
 F 1 "I1P_0" H 5050 5750 50  0000 C CNN
 F 2 "Connectors_TestPoints:Test_Point_Pad_d2.0mm" H 5050 5500 50  0001 C CNN
 F 3 "" H 5050 5500 50  0001 C CNN
+F 4 "x" H 5050 5500 60  0001 C CNN "PN"
 	1    5050 5500
 	1    0    0    -1  
 $EndComp
@@ -762,6 +767,7 @@ F 0 "TP7" H 5050 6200 50  0000 C BNN
 F 1 "I1N_0" H 5050 6150 50  0000 C CNN
 F 2 "Connectors_TestPoints:Test_Point_Pad_d2.0mm" H 5050 5900 50  0001 C CNN
 F 3 "" H 5050 5900 50  0001 C CNN
+F 4 "x" H 5050 5900 60  0001 C CNN "PN"
 	1    5050 5900
 	1    0    0    -1  
 $EndComp
@@ -781,6 +787,7 @@ F 0 "TP8" H 5050 6600 50  0000 C BNN
 F 1 "I1P_1" H 5050 6550 50  0000 C CNN
 F 2 "Connectors_TestPoints:Test_Point_Pad_d2.0mm" H 5050 6300 50  0001 C CNN
 F 3 "" H 5050 6300 50  0001 C CNN
+F 4 "x" H 5050 6300 60  0001 C CNN "PN"
 	1    5050 6300
 	1    0    0    -1  
 $EndComp
@@ -795,6 +802,7 @@ F 0 "TP9" H 9350 3850 50  0000 C BNN
 F 1 "I1N_1" H 9350 3800 50  0000 C CNN
 F 2 "Connectors_TestPoints:Test_Point_Pad_d2.0mm" H 9350 3550 50  0001 C CNN
 F 3 "" H 9350 3550 50  0001 C CNN
+F 4 "x" H 9350 3550 60  0001 C CNN "PN"
 	1    9350 3550
 	1    0    0    -1  
 $EndComp
@@ -809,6 +817,7 @@ F 0 "TP10" H 9350 4250 50  0000 C BNN
 F 1 "3.3V_D" H 9350 4200 50  0000 C CNN
 F 2 "Connectors_TestPoints:Test_Point_Pad_d2.0mm" H 9350 3950 50  0001 C CNN
 F 3 "" H 9350 3950 50  0001 C CNN
+F 4 "x" H 9350 3950 60  0001 C CNN "PN"
 	1    9350 3950
 	1    0    0    -1  
 $EndComp
@@ -823,6 +832,7 @@ F 0 "TP11" H 9350 4700 50  0000 C BNN
 F 1 "GND_D" H 9350 4650 50  0000 C CNN
 F 2 "Connectors_TestPoints:Test_Point_Pad_d2.0mm" H 9350 4400 50  0001 C CNN
 F 3 "" H 9350 4400 50  0001 C CNN
+F 4 "x" H 9350 4400 60  0001 C CNN "PN"
 	1    9350 4400
 	1    0    0    -1  
 $EndComp
