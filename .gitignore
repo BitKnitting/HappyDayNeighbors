@@ -57,6 +57,8 @@ EnergyDB/__pycache__/*
 EnergyDB/.ipynb_checkpoints/*
 EnergyDB/Add Readings to Energy DB.ipynb
 EnergyDB/EnergyReadingModel.pyc
+Fusion360/*
+HTML5/*
 testStuff/*
 din_power_atm90e26/*
 #Python/GetEnergyReadings.py

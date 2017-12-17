@@ -1,0 +1,69 @@
+.label-picker {
+  text-align: center;
+  font-family: sans-serif;
+  font-size:16px;
+}
+
+.label-picker__inputs {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-width: 14em;
+  max-width: 28em;
+  width: 40%;
+}
+
+.label-picker__input {
+  display: none;
+}
+
+.label-picker__label {
+  background: #D8D8D;
+  color: #707070;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.5em;
+  min-height: 1em;
+}
+.label-picker__label:after {
+  background: #d8d8d8;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 0 auto;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  width: 100%;
+  transition: all 100ms ease-out;
+}
+.label-picker__label:focus {
+  outline: none;
+}
+.label-picker__label:hover:after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+  transition: -webkit-transform 150ms ease-out-in;
+  transition: transform 150ms ease-out-in;
+}
+.label-picker__label:active:after {
+  background: #707070;
+  transition: background 75ms ease-out;
+}
+
+input[type="radio"]:checked + .label-picker__label {
+  color: #353535;
+}
+input[type="radio"]:checked + .label-picker__label:after {
+  background: #4ea701;
+  transition: background 150ms linear;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
