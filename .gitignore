@@ -58,6 +58,7 @@ EnergyDB/.ipynb_checkpoints/*
 EnergyDB/Add Readings to Energy DB.ipynb
 EnergyDB/EnergyReadingModel.pyc
 Fusion360/*
+HappyDay_Energy_PCB/replaceValue.py
 HTML5/*
 testStuff/*
 din_power_atm90e26/*
@@ -74,8 +75,10 @@ Python/mqttTest.py
 Python/PyspiTest.py
 Python/PyspiTestMeterStatus.png
 Python/PyspiTestwithMqtt.py
+Python/refresh_Huzzah/*
 Python/spi_device.mpy
 Python/test.py
+Python/test1.py
 #Python/umqtt_simple.py
 din_power_atm90e26/*
 #Python/GetEnergyReadings.py
@@ -96,3 +99,4 @@ Python/test.py
 Python/WholeHousePowerReading.py
 Python/WriteEnergyReadingsToCSVFile.pyPython/WholeHousePowerReading.py
 Python/WriteEnergyReadingsToCSVFile.py
+Testing/*

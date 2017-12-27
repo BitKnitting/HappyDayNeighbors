@@ -59,7 +59,7 @@ ATM90_QoffsetL     = const(0x38)  # L Line Reactive Power Offset
 ATM90_CSTwo        = const(0x3B)  # Checksum 2
 ATM90_EnStatus     = const(0x46)  # Metering Status
 ATM90_Urms         = const(0x49)  # Voltage rms
-ATM90_Irms         = const(0x48)  # L Line voltage
+ATM90_Irms         = const(0x48)  # L Line Current rms
 ATM90_Pmean        = const(0x4A)  # L Line Mean Active Power
 ATM90_PowerF       = const(0x4D)  # L Line Power Factor
 ATM90_Freq         = const(0x4C)  # Voltage frequency
@@ -159,6 +159,7 @@ class energyic_SPI:
         #####################################################################################
     def getLineCurrent(self):
         reading = self._commEnergyIC(1,ATM90_Irms,0xFFFF)
+        print("line current: ",reading)
         reading = reading/1000
         return reading
         #####################################################################################
